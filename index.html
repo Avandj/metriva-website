@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Metriva</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 650px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background: #111827;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .services {
+            background: #f7f7f7;
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 280px;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Metriva</div>
+
+    <div>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Better Data. Better Business.</h1>
+
+    <p>
+        Metriva helps businesses simplify their data,
+        automate repetitive work, and make better decisions.
+    </p>
+
+    <a class="button" href="#contact">Let's Talk</a>
+</section>
+
+<section class="services" id="services">
+
+    <h2>What We Do</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Data & Reporting</h3>
+            <p>
+                Turn scattered business data into useful dashboards
+                and reports.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Automation</h3>
+            <p>
+                Reduce repetitive manual work with practical
+                business automation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Database Solutions</h3>
+            <p>
+                Organize your information into reliable systems
+                built around your business.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="hero" id="contact">
+    <h1>Let's Work Together</h1>
+
+    <p>
+        Interested in improving how your business handles data?
+    </p>
+
+    <a class="button" href="mailto:YOUR-EMAIL-HERE">
+        Contact Metriva
+    </a>
+</section>
+
+<footer>
+    © 2026 Metriva. All rights reserved.
+</footer>
+
+</body>
+</html>
