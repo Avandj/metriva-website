@@ -1,128 +1,273 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Metriva | Data Systems & Automation for Manufacturers</title>
-  <meta name="description" content="Metriva helps small and growing manufacturers organize operational data, automate repetitive work, and build practical systems that scale.">
-  <meta name="theme-color" content="#07111b">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Metriva | Better systems for growing manufacturers">
-  <meta property="og:description" content="Practical data systems, reporting, and automation for manufacturers that have outgrown scattered spreadsheets and manual workflows.">
-  <link rel="stylesheet" href="metriva.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metriva | Practical Data Systems for Manufacturers</title>
+  <meta name="description" content="Metriva helps manufacturers reduce spreadsheet chaos, improve reporting, and fix manual workflows with practical systems built around real operational problems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header" id="top">
-    <nav class="nav shell" aria-label="Primary navigation">
-      <a class="brand" href="#top"><span class="brand-mark">M</span><span>Metriva</span></a>
-      <div class="nav-menu">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">Metriva</a>
+      <nav class="nav">
         <a href="#problems">Problems</a>
         <a href="#services">Services</a>
         <a href="#process">Process</a>
         <a href="#about">About</a>
-        <a href="/ivan/">Founder</a>
-        <a class="nav-cta" href="#contact">Start a conversation</a>
-      </div>
-    </nav>
+        <a href="#contact" class="nav-cta">Start a conversation</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Data systems for growing manufacturers</p>
-        <h1>Your operations should not run on <span>scattered spreadsheets.</span></h1>
-        <p>Metriva helps small and growing manufacturers organize their data, automate repetitive work, and build practical systems that make day to day operations easier to manage.</p>
-        <div class="actions">
-          <a class="button primary" href="#contact">Book a free process review →</a>
-          <a class="button secondary" href="#services">See what we build</a>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Practical systems for manufacturers</p>
+          <h1>Fix the manual work around your operation.</h1>
+          <p class="lead">
+            Metriva helps manufacturers improve reporting, organize operational data,
+            and reduce repetitive spreadsheet work without forcing a giant software project.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="mailto:hello@metriva.ca?subject=Metriva%20Process%20Review">Book a free workflow review</a>
+            <a class="button secondary" href="#services">See what we help with</a>
+          </div>
+          <ul class="trust-points">
+            <li>Start with one real problem</li>
+            <li>Built around your current workflow</li>
+            <li>No inflated promises</li>
+          </ul>
         </div>
-      </div>
-
-      <div class="hero-card reveal">
-        <div class="hero-card-head"><span>OPERATIONS FLOW</span><span class="online">SYSTEM READY</span></div>
-        <div class="flow">
-          <div class="flow-step"><small>01 / CURRENT STATE</small><strong>Manual information flow</strong><span>Spreadsheets · email · duplicate entry · disconnected files</span></div>
-          <div class="flow-arrow">↓</div>
-          <div class="flow-step"><small>02 / METRIVA</small><strong>Structure + automate</strong><span>Clean data · business rules · reporting · workflow automation</span></div>
-          <div class="flow-arrow">↓</div>
-          <div class="flow-step good"><small>03 / RESULT</small><strong>A system your team can rely on</strong><span>Clearer information · fewer manual steps · better visibility</span></div>
-        </div>
+        <aside class="hero-panel">
+          <p class="panel-label">What Metriva focuses on</p>
+          <div class="flow-step">
+            <span>01</span>
+            <div>
+              <h3>Current state</h3>
+              <p>Spreadsheets, email follow-ups, duplicate entry, manual checking.</p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <span>02</span>
+            <div>
+              <h3>Metriva</h3>
+              <p>Structured data, clear rules, reporting, workflow automation.</p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <span>03</span>
+            <div>
+              <h3>Result</h3>
+              <p>Less friction, fewer errors, better visibility, and a system your team can trust.</p>
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <div class="trust"><div class="shell"><span>MANUFACTURING DATA</span><span>REPORTING</span><span>AUTOMATION</span><span>DATABASE SYSTEMS</span><span>OPERATIONS WORKFLOWS</span></div></div>
-
-    <section class="section shell" id="problems">
-      <div class="section-head reveal">
-        <div><p class="kicker">01 / The problem</p><h2>Growth exposes weak systems.</h2></div>
-        <p>Many smaller manufacturers do not need a massive software transformation. They need the information they already have to become easier to trust, find, and use.</p>
-      </div>
-      <div class="problem-grid">
-        <article class="problem reveal"><span class="num">01</span><h3>Too many spreadsheets</h3><p>Critical information lives across files owned by different people, with inconsistent formats and no clear source of truth.</p></article>
-        <article class="problem reveal"><span class="num">02</span><h3>Manual work everywhere</h3><p>Teams spend time copying values, checking fields, sending updates, and rebuilding the same reports over and over.</p></article>
-        <article class="problem reveal"><span class="num">03</span><h3>Decisions come late</h3><p>When data is difficult to combine or validate, managers get visibility after the problem has already happened.</p></article>
-      </div>
-    </section>
-
-    <section class="section panel" id="services">
-      <div class="shell">
-        <div class="section-head reveal">
-          <div><p class="kicker">02 / What Metriva builds</p><h2>Practical systems before expensive software.</h2></div>
-          <p>We start with the operational problem and build the smallest useful system around it. The goal is not more technology. The goal is less friction.</p>
+    <section class="section muted" id="problems">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Common problems</p>
+          <h2>The issue usually is not a lack of software.</h2>
+          <p>
+            It is the manual work happening around the software: the exports, the checks, the shared files,
+            the follow-ups, and the reporting that takes too long to build.
+          </p>
         </div>
-        <div class="service-grid">
-          <article class="service reveal"><span class="num">A</span><h3>Operational Databases</h3><p>Move important business information out of fragile spreadsheet chains and into a structured system your team can maintain.</p><ul><li>Data model and database design</li><li>Import and cleanup of existing data</li><li>Validation rules and controlled fields</li><li>Simple interfaces built around the workflow</li></ul></article>
-          <article class="service reveal"><span class="num">B</span><h3>Reporting & Visibility</h3><p>Turn operational data into clear reporting so your team can see what needs attention without rebuilding reports manually.</p><ul><li>Management dashboards</li><li>Exception and status reporting</li><li>Automated recurring reports</li><li>Operational KPI tracking</li></ul></article>
-          <article class="service reveal"><span class="num">C</span><h3>Workflow Automation</h3><p>Remove repetitive steps where people are moving the same information between files, systems, emails, or teams.</p><ul><li>Spreadsheet and file automation</li><li>Alerts and validation checks</li><li>Data movement between systems</li><li>Repeatable review workflows</li></ul></article>
-          <article class="service reveal"><span class="num">D</span><h3>Systems Roadmap</h3><p>When the current setup has reached its limit, we map what should be improved now and what can wait until the business is ready to scale further.</p><ul><li>Current workflow review</li><li>Data and process mapping</li><li>Priority recommendations</li><li>Path toward cloud and larger systems</li></ul></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section shell">
-      <div class="section-head reveal">
-        <div><p class="kicker">03 / Who it is for</p><h2>Built for the stage before enterprise software makes sense.</h2></div>
-        <p>Metriva is a fit when your business has real operational complexity but the answer is not yet another huge implementation project.</p>
-      </div>
-      <div class="fit-grid">
-        <article class="fit-card reveal"><h3>Good fit</h3><p>You are likely ready for Metriva if:</p><ul class="fit-list"><li>Important processes depend on Excel or shared files</li><li>People copy the same data into multiple places</li><li>Reporting takes hours to prepare</li><li>Errors are found through manual checking</li><li>You want a better system without replacing everything</li></ul></article>
-        <article class="fit-card reveal"><h3>Not trying to be everything.</h3><p>Metriva is not a replacement for every ERP, MES, or accounting platform. We focus on the gaps around those systems: the manual workflows, disconnected information, reporting problems, and processes that have outgrown their current setup.</p><div class="proof-box">Start with one painful process. Fix it properly. Prove the value. Then expand.</div></article>
-      </div>
-    </section>
-
-    <section class="section panel" id="process">
-      <div class="shell">
-        <div class="section-head reveal">
-          <div><p class="kicker">04 / How it works</p><h2>A simple path from problem to working system.</h2></div>
-          <p>No giant discovery phase. We first understand the workflow, identify the highest value bottleneck, and build around what your team actually does.</p>
-        </div>
-        <div class="steps">
-          <article class="step reveal"><span class="num">01</span><h3>Review</h3><p>Walk through the process, files, systems, and recurring pain points with the people doing the work.</p></article>
-          <article class="step reveal"><span class="num">02</span><h3>Map</h3><p>Define the information flow, business rules, duplicated work, and the smallest useful target solution.</p></article>
-          <article class="step reveal"><span class="num">03</span><h3>Build</h3><p>Create the database, reporting, automation, or lightweight application needed to solve the problem.</p></article>
-          <article class="step reveal"><span class="num">04</span><h3>Improve</h3><p>Use real feedback from the workflow to refine the system and decide what is worth automating next.</p></article>
+        <div class="cards three-up">
+          <article class="card">
+            <h3>Too many spreadsheets</h3>
+            <p>Important information lives in separate files with inconsistent formats and no clear source of truth.</p>
+          </article>
+          <article class="card">
+            <h3>Too much manual work</h3>
+            <p>People keep copying values, checking fields, emailing updates, and rebuilding the same reports every week.</p>
+          </article>
+          <article class="card">
+            <h3>Visibility comes too late</h3>
+            <p>By the time issues show up, the team is already reacting instead of managing proactively.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section shell" id="about">
-      <div class="founder">
-        <div class="founder-card reveal"><span class="badge">FOUNDER BACKGROUND</span><h3>Built from real manufacturing data work.</h3><p>Metriva comes from firsthand experience working with product data, ERP systems, specification workflows, Excel automation, cross functional reviews, and the everyday friction that appears when growing operations depend on disconnected tools.</p><a class="button secondary" href="/ivan/">Meet Ivan →</a></div>
-        <div class="founder-copy reveal"><p class="kicker">05 / Why Metriva</p><h2>Understand the operation before touching the technology.</h2><p>The best system is not the one with the most features. It is the one your team understands, trusts, and actually uses.</p><p>That means learning how the work happens today, where information breaks down, what creates delays, and which problems are worth solving first.</p><div class="proof-box">Metriva is intentionally starting narrow: data, reporting, and workflow systems for smaller manufacturers. That focus keeps the work practical and close to measurable operational problems.</div></div>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What Metriva helps with</p>
+          <h2>Useful systems that solve real operational problems.</h2>
+          <p>
+            We focus on the gaps around ERP, shared files, and existing processes. The goal is to make the work easier to run,
+            not to sell technology for its own sake.
+          </p>
+        </div>
+        <div class="cards two-up">
+          <article class="service-card">
+            <h3>Operational reporting</h3>
+            <p>Clear reporting that gives managers and teams better visibility without rebuilding the same report every time.</p>
+            <ul>
+              <li>Status and exception reporting</li>
+              <li>Recurring operational reports</li>
+              <li>KPI tracking and visibility</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Workflow automation</h3>
+            <p>Automation for repetitive work where people are moving information between files, systems, or departments.</p>
+            <ul>
+              <li>Spreadsheet automation</li>
+              <li>Validation and alert checks</li>
+              <li>Repeatable review workflows</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Data organization</h3>
+            <p>Stronger structure around the information your team already depends on so it becomes easier to trust and maintain.</p>
+            <ul>
+              <li>Data cleanup and standardization</li>
+              <li>Controlled fields and business rules</li>
+              <li>Simple databases or lightweight tools</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Process review</h3>
+            <p>A focused review of one workflow to identify where the time, confusion, and manual effort are really coming from.</p>
+            <ul>
+              <li>Workflow walkthrough</li>
+              <li>Information and handoff mapping</li>
+              <li>Practical next-step recommendation</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section shell" id="contact">
-      <div class="cta reveal">
-        <p class="kicker">06 / Start here</p>
-        <h2>Show me the process your team hates doing.</h2>
-        <p>We can start with a short conversation about one workflow, report, spreadsheet process, or data problem. If there is a practical way to improve it, we can map the next step.</p>
-        <div class="actions"><a class="button primary" href="mailto:ivanalc.oviedo@gmail.com?subject=Metriva%20Process%20Review">Book a free process review →</a><a class="button secondary" href="/ivan/">About the founder</a></div>
+    <section class="section accent-section">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">Good fit</p>
+          <h2>Metriva is a fit when you want improvement without a giant overhaul.</h2>
+        </div>
+        <div class="fit-grid">
+          <div>
+            <h3>You are likely a fit if</h3>
+            <ul class="check-list">
+              <li>Important processes depend on Excel or shared files</li>
+              <li>Reporting takes too long to prepare</li>
+              <li>Errors are found through manual checking</li>
+              <li>People re-enter the same data in multiple places</li>
+              <li>You want something better without replacing everything</li>
+            </ul>
+          </div>
+          <div>
+            <h3>What Metriva is not</h3>
+            <ul class="check-list neutral">
+              <li>Not a full ERP replacement</li>
+              <li>Not a giant transformation project</li>
+              <li>Not vague consulting with no deliverable</li>
+              <li>Not trying to be everything for everyone</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>A simple process.</h2>
+          <p>
+            The first goal is understanding the workflow clearly enough to improve it in a practical way.
+          </p>
+        </div>
+        <div class="process-grid">
+          <article class="process-step">
+            <span>01</span>
+            <h3>Review</h3>
+            <p>Walk through the process, files, systems, and recurring problems with the people doing the work.</p>
+          </article>
+          <article class="process-step">
+            <span>02</span>
+            <h3>Map</h3>
+            <p>Identify the information flow, duplicate work, business rules, and the smallest useful improvement.</p>
+          </article>
+          <article class="process-step">
+            <span>03</span>
+            <h3>Build</h3>
+            <p>Create the reporting, automation, data structure, or lightweight tool needed to solve the problem.</p>
+          </article>
+          <article class="process-step">
+            <span>04</span>
+            <h3>Improve</h3>
+            <p>Refine the system with real workflow feedback and decide what is worth solving next.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">Why Metriva</p>
+          <h2>Built from real manufacturing work.</h2>
+          <p>
+            Metriva is grounded in hands-on experience with manufacturing data, ERP processes,
+            Excel-heavy workflows, cross-functional reviews, and the day-to-day friction that appears when operations outgrow informal systems.
+          </p>
+          <p>
+            The approach is straightforward: understand the operation, be honest about what is worth fixing,
+            and solve one meaningful problem at a time.
+          </p>
+          <a class="text-link" href="/ivan/">Meet the founder →</a>
+        </div>
+        <div class="about-panel">
+          <h3>What clients should expect</h3>
+          <ul class="expect-list">
+            <li>Clear communication</li>
+            <li>Practical recommendations</li>
+            <li>Transparency on what is and is not worth doing</li>
+            <li>A focus on measurable operational improvement</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="contact">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2>Show me the workflow your team is tired of dealing with.</h2>
+          <p>
+            If there is a practical way to improve it, we can talk through the next step.
+            If there is not, I will tell you that too.
+          </p>
+        </div>
+        <div class="cta-actions">
+          <a class="button primary" href="mailto:hello@metriva.ca?subject=Metriva%20Workflow%20Review">Book a free workflow review</a>
+          <a class="contact-link" href="mailto:hello@metriva.ca">hello@metriva.ca</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer"><div class="shell footer-inner"><span>© <span id="year">2026</span> Metriva</span><div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="/ivan/">Ivan Alcantara Oviedo</a></div></div></footer>
-  <script src="metriva.js" defer></script>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Metriva</p>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="/ivan/">Founder</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
