@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Metriva | Practical Data & Workflow Systems for Manufacturers</title>
-  <meta name="description" content="Metriva helps small and growing manufacturers fix manual reporting, spreadsheet-heavy workflows, and operational data problems without replacing the systems they already use.">
-  <meta name="theme-color" content="#0b1b26">
+  <meta name="description" content="Metriva helps manufacturers reduce manual reporting, spreadsheet-heavy workflows, and operational data friction without replacing the systems they already use.">
+  <meta name="theme-color" content="#0d2532">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,242 +17,185 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="#top" aria-label="Metriva home">
-        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
         <span>Metriva</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#problems">Problems</a>
-        <a href="#approach">Approach</a>
+        <a href="#friction">Problems</a>
+        <a href="#process">Process</a>
         <a href="#work">What we build</a>
-        <a href="#about">Why Metriva</a>
-        <a class="nav-contact" href="#contact">Start with one workflow</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Talk about a workflow</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
     <section class="hero shell" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">For small and growing manufacturers</p>
-        <h1>Fix the manual work around your operation.</h1>
-        <p class="hero-lead">
-          If your team is rebuilding the same report, cleaning the same ERP export, or checking the same fields by hand every week, that is where Metriva starts.
-        </p>
+      <div class="hero-main">
+        <p class="eyebrow">Operations data & workflow improvement</p>
+        <h1>Less spreadsheet chasing.<br><span>Better operating visibility.</span></h1>
+        <p class="hero-lead">Metriva helps small and growing manufacturers clean up the manual layer around ERP and Excel - recurring reports, data checks, exception follow-ups, and awkward internal workflows.</p>
         <div class="hero-actions">
-          <a class="button primary" href="mailto:ivan@metriva.ca?subject=Metriva%20workflow%20review">Book a 30-minute workflow review</a>
-          <a class="text-link" href="#approach">See how we work <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="hero-note">
-          <strong>No giant transformation pitch.</strong>
-          <span>One workflow. One owner. One before-and-after measure.</span>
+          <a class="button primary" href="#contact">Start with one workflow</a>
+          <a class="inline-link" href="#process">How it works <span aria-hidden="true">↘</span></a>
         </div>
       </div>
 
-      <aside class="hero-board" aria-label="Example Metriva workflow">
-        <div class="board-top">
-          <span>Example first project</span>
-          <span>01 / 01</span>
+      <aside class="hero-aside" aria-label="A good first project">
+        <div class="aside-head">
+          <span>A good first project</span>
+          <span>01</span>
         </div>
-        <div class="board-main">
-          <p class="board-kicker">Recurring operations report</p>
-          <h2>ERP export → cleanup → checks → report</h2>
-          <div class="board-flow" aria-label="Example process">
-            <div><span>01</span><strong>Export</strong><small>CSV / Excel from ERP</small></div>
-            <div><span>02</span><strong>Clean</strong><small>Standardize fields</small></div>
-            <div><span>03</span><strong>Check</strong><small>Flag exceptions</small></div>
-            <div><span>04</span><strong>Report</strong><small>Ready to review</small></div>
-          </div>
+        <p class="aside-question">What takes the same person 30-90 minutes every week because the data has to be exported, cleaned, checked, or copied?</p>
+        <div class="aside-example">
+          <span>Input</span><strong>ERP export / spreadsheet</strong>
+          <span>Work</span><strong>Clean + validate + flag</strong>
+          <span>Output</span><strong>Report / exception list</strong>
         </div>
-        <div class="board-bottom">
-          <span>Measure before we build:</span>
-          <strong>time per run · handoffs · checks · exceptions</strong>
-        </div>
+        <p class="aside-foot">We measure the current process before proposing a fix.</p>
       </aside>
     </section>
 
-    <section class="problem-strip" id="problems">
-      <div class="shell strip-grid">
-        <p class="strip-label">Problems we look for</p>
-        <p>Weekly report rebuilds</p>
-        <p>Duplicate data entry</p>
-        <p>Manual validation</p>
-        <p>ERP export cleanup</p>
-        <p>Exception follow-up</p>
+    <section class="signal-bar" aria-label="Common manufacturing workflow issues">
+      <div class="shell signal-grid">
+        <span>ERP exports</span>
+        <span>Excel trackers</span>
+        <span>Manual checks</span>
+        <span>Recurring reports</span>
+        <span>Exception follow-up</span>
+        <span>Master data</span>
       </div>
     </section>
 
-    <section class="section shell" id="approach">
-      <div class="section-intro offset-intro">
-        <p class="eyebrow">The approach</p>
-        <h2>Understand the process before touching the technology.</h2>
-        <p>
-          Most manufacturing teams do not need another platform just because a process is messy. First, we map what actually happens today: where the data starts, who touches it, what gets checked, and where the delays show up.
-        </p>
+    <section class="section shell friction" id="friction">
+      <div class="friction-heading">
+        <p class="eyebrow">Where the friction shows up</p>
+        <h2>Your software can be fine while the work around it is not.</h2>
       </div>
-
-      <div class="bento">
-        <article class="bento-item bento-large">
-          <span class="index">01</span>
-          <div>
-            <p class="item-label">Bring one real workflow</p>
-            <h3>“We rebuild this every Monday.”</h3>
-            <p>
-              That is enough to start. A report, tracker, product-data review, inventory reconciliation, purchasing check, or any recurring process that depends on exports, spreadsheets, and manual follow-up.
-            </p>
-          </div>
+      <div class="friction-list">
+        <article>
+          <span class="num">01</span>
+          <div><h3>Reports rebuilt by hand</h3><p>The same exports are downloaded, reformatted, filtered, checked, and emailed every day or every week.</p></div>
         </article>
-
-        <article class="bento-item">
-          <span class="index">02</span>
-          <div>
-            <p class="item-label">Map the current state</p>
-            <h3>Count the steps.</h3>
-            <p>We document the source files, copy/paste steps, checks, handoffs, and recurring exceptions before recommending anything.</p>
-          </div>
+        <article>
+          <span class="num">02</span>
+          <div><h3>Important checks live in someone's head</h3><p>People know which fields to compare and which exceptions matter, but the rules are not built into the process.</p></div>
         </article>
-
-        <article class="bento-item bento-tall">
-          <span class="index">03</span>
-          <div>
-            <p class="item-label">Pick a useful measure</p>
-            <h3>No made-up ROI.</h3>
-            <p>Track something we can actually observe: minutes per run, number of manual handoffs, fields checked, or exceptions that need follow-up.</p>
-          </div>
+        <article>
+          <span class="num">03</span>
+          <div><h3>The same data gets typed twice</h3><p>Information moves from ERP to Excel to email to another tracker, creating extra work and more places for errors to hide.</p></div>
         </article>
-
-        <article class="bento-item bento-wide">
-          <span class="index">04</span>
-          <div>
-            <p class="item-label">Build only what earns its place</p>
-            <h3>Automate the repetitive part. Keep people where judgment matters.</h3>
-            <p>
-              The result might be a cleaner report, validation logic, a small database, an alert, or a lightweight internal tool. If the best answer is to leave part of the process manual, we say that too.
-            </p>
-          </div>
+        <article>
+          <span class="num">04</span>
+          <div><h3>Managers see issues after the fact</h3><p>When reporting takes too long to prepare, visibility arrives after the team already had to react.</p></div>
         </article>
       </div>
     </section>
 
-    <section class="section work-section" id="work">
-      <div class="shell work-grid">
-        <div class="work-heading">
-          <p class="eyebrow">What we build</p>
+    <section class="process-section" id="process">
+      <div class="shell process-grid">
+        <div class="process-copy">
+          <p class="eyebrow">Start small</p>
+          <h2>One workflow before any bigger plan.</h2>
+          <p>There is no reason to start with a company-wide transformation. Pick one process with a clear owner, a repeatable pain point, and something we can measure before and after.</p>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><div><strong>Watch the work</strong><p>Walk through the files, systems, handoffs, checks, and recurring exceptions.</p></div></li>
+          <li><span>2</span><div><strong>Write down the rules</strong><p>Separate judgment from repetition so we know what can safely be automated.</p></div></li>
+          <li><span>3</span><div><strong>Build the smallest useful fix</strong><p>A report, validation layer, database, alert, or lightweight internal tool.</p></div></li>
+          <li><span>4</span><div><strong>Compare the process</strong><p>Use the baseline to see whether the change actually reduced work or improved visibility.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="work-head">
+        <div>
+          <p class="eyebrow">What Metriva builds</p>
           <h2>Practical fixes around the systems you already use.</h2>
         </div>
+        <p>Not every problem needs an app. The deliverable should match the workflow, not the other way around.</p>
+      </div>
 
-        <div class="work-list">
-          <article>
-            <span>01</span>
-            <div>
-              <h3>Reporting that does not need rebuilding</h3>
-              <p>Recurring operational reports, status views, KPI summaries, and exception lists built from the data your team already produces.</p>
-            </div>
-          </article>
-          <article>
-            <span>02</span>
-            <div>
-              <h3>Checks that catch the boring mistakes</h3>
-              <p>Validation rules for missing values, mismatches, duplicate records, date logic, status rules, and other repeatable checks people should not have to do by eye.</p>
-            </div>
-          </article>
-          <article>
-            <span>03</span>
-            <div>
-              <h3>Cleaner data between ERP and Excel</h3>
-              <p>Structured imports, standardized fields, controlled values, and repeatable cleanup for CSV or Excel exports coming from ERP and operational systems.</p>
-            </div>
-          </article>
-          <article>
-            <span>04</span>
-            <div>
-              <h3>Small internal tools for awkward workflows</h3>
-              <p>When a spreadsheet is doing too much, we can replace the fragile part with a simple database, interface, or workflow tool without replacing the ERP behind it.</p>
-            </div>
-          </article>
-        </div>
+      <div class="work-bento">
+        <article class="work-feature">
+          <span class="tag">Reporting</span>
+          <h3>Recurring operational reports that do not need rebuilding.</h3>
+          <p>Status views, KPI summaries, exception lists, and recurring reports built from the data your team already produces.</p>
+          <div class="mini-flow"><span>Export</span><b>→</b><span>Rules</span><b>→</b><span>Review-ready output</span></div>
+        </article>
+        <article class="work-small">
+          <span class="tag">Validation</span>
+          <h3>Checks that catch repeatable mistakes.</h3>
+          <p>Missing values, mismatches, duplicate records, dates, status rules, and other checks people should not have to do by eye.</p>
+        </article>
+        <article class="work-small">
+          <span class="tag">Data</span>
+          <h3>Cleaner movement between ERP and Excel.</h3>
+          <p>Structured imports, standardized fields, controlled values, and repeatable cleanup for CSV or Excel exports.</p>
+        </article>
+        <article class="work-wide">
+          <span class="tag">Internal tools</span>
+          <div><h3>When a spreadsheet is doing too much, replace only the fragile part.</h3><p>A simple database, interface, or workflow tool can sit beside the ERP instead of forcing a full replacement.</p></div>
+        </article>
       </div>
     </section>
 
-    <section class="section shell proof-section" id="about">
-      <div class="proof-copy">
-        <p class="eyebrow">Why Metriva</p>
-        <h2>Built from manufacturing data work, not a generic software pitch.</h2>
-        <p>
-          Metriva grew out of hands-on work with JD Edwards ERP, product and specification data, Excel/VBA automation, cross-functional review workflows, and the day-to-day friction between operations, quality, planning, packaging, and data.
-        </p>
-        <p>
-          The founder experience includes reviewing more than 300 product specifications and building practical checks and trackers around real manufacturing processes. That is the lens Metriva brings to every first conversation.
-        </p>
+    <section class="case-section">
+      <div class="shell case-grid">
+        <div class="case-label">
+          <p class="eyebrow">Sanitized example</p>
+          <span>Manufacturing product-data review</span>
+        </div>
+        <div class="case-before">
+          <span>Before</span>
+          <p>ERP data</p><i>→</i><p>Spreadsheet checks</p><i>→</i><p>Email follow-up</p><i>→</i><p>Manual status tracking</p>
+        </div>
+        <div class="case-after">
+          <span>Improved flow</span>
+          <p>ERP data</p><i>→</i><p>Defined validation rules</p><i>→</i><p>Exceptions only</p><i>→</i><p>Clear review status</p>
+        </div>
+        <p class="case-note">The point is not “automation everywhere.” It is reducing repetitive checking while keeping the review decisions with the people who understand the product.</p>
       </div>
+    </section>
 
-      <aside class="proof-ledger">
-        <div class="ledger-row">
-          <span>Founder background</span>
-          <strong>Manufacturing data administration</strong>
-        </div>
-        <div class="ledger-row">
-          <span>ERP exposure</span>
-          <strong>JD Edwards</strong>
-        </div>
-        <div class="ledger-row">
-          <span>Common tools</span>
-          <strong>Excel · VBA · SQL · Python</strong>
-        </div>
-        <div class="ledger-row">
-          <span>Operating principle</span>
-          <strong>Fix one measurable problem first</strong>
-        </div>
+    <section class="section shell about" id="about">
+      <div class="about-main">
+        <p class="eyebrow">Why Metriva</p>
+        <h2>Built from real manufacturing data work.</h2>
+        <p>Metriva comes from hands-on experience with JD Edwards ERP, product and specification data, Excel/VBA automation, cross-functional reviews, and the everyday friction between operations, quality, planning, packaging, and data.</p>
+        <p>The founder experience includes reviewing more than 300 product specifications and building practical checks and trackers around manufacturing workflows.</p>
+      </div>
+      <aside class="principles">
+        <p class="principles-title">Working rules</p>
+        <div><span>01</span><strong>No ERP replacement without a reason.</strong></div>
+        <div><span>02</span><strong>No ROI claim without a baseline.</strong></div>
+        <div><span>03</span><strong>No automation that adds more complexity than it removes.</strong></div>
+        <div><span>04</span><strong>Show the trade-offs, not just the upside.</strong></div>
       </aside>
     </section>
 
-    <section class="transparency">
-      <div class="shell transparency-grid">
+    <section class="contact" id="contact">
+      <div class="shell contact-grid">
         <div>
-          <p class="eyebrow">Transparency</p>
-          <h2>What you will not hear from us.</h2>
+          <p class="eyebrow">Start here</p>
+          <h2>Show me one process your team is tired of doing manually.</h2>
         </div>
-        <div class="transparency-list">
-          <div>
-            <strong>“You need to replace your ERP.”</strong>
-            <p>Maybe you do. Usually that is not the first assumption.</p>
-          </div>
-          <div>
-            <strong>“This will save 40%.”</strong>
-            <p>Not without a baseline and real evidence.</p>
-          </div>
-          <div>
-            <strong>“AI will solve it.”</strong>
-            <p>Only if AI is actually the right tool for the workflow.</p>
-          </div>
-          <div>
-            <strong>“We need six months of discovery.”</strong>
-            <p>Start with one process and learn from something real.</p>
-          </div>
+        <div class="contact-copy">
+          <p>A spreadsheet, ERP export, screenshot, or five-minute explanation is enough for a first conversation. If there is a practical first step, we will map it. If there is not, I will tell you that too.</p>
+          <a class="button primary light" href="mailto:ivanalc.oviedo@gmail.com?subject=Metriva%20workflow%20review">Book a 30-minute workflow review</a>
+          <span>No obligation. No sales deck required.</span>
         </div>
-      </div>
-    </section>
-
-    <section class="section shell contact-section" id="contact">
-      <div class="contact-copy">
-        <p class="eyebrow">Start here</p>
-        <h2>Send one process your team is tired of doing manually.</h2>
-        <p>
-          A screenshot, spreadsheet, ERP export, or five-minute explanation is enough for a first conversation. We will look at whether the problem is specific enough to improve and what a sensible first step would be.
-        </p>
-      </div>
-      <div class="contact-action">
-        <a class="button primary" href="mailto:ivan@metriva.ca?subject=Metriva%20workflow%20review">Email Ivan at Metriva</a>
-        <p>ivan@metriva.ca</p>
-        <small>30-minute workflow review · no obligation</small>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="shell footer-wrap">
+    <div class="shell footer-grid">
       <span>© 2026 Metriva</span>
       <span>Ontario, Canada</span>
-      <a href="/ivan/">About the founder</a>
+      <a href="/ivan/">About the founder ↗</a>
     </div>
   </footer>
 </body>
